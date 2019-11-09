@@ -56,13 +56,22 @@ git clone https://github.com/gavin771/applitools-hackathon.git
 ```sh
 cd applitools-hackathon
 ```
-2. Install NPM packages
+3. Install NPM packages
 
 ```sh
 npm install
 ```
+4. Create a .env file in the root of your project
 
-3. Run any of the following test scripts
+```sh
+touch .env
+echo "APPLITOOLS_API_KEY=[API Key]" >> .env
+
+# For windows:
+# type NUL > .env
+# echo APPLITOOLS_API_KEY=[API Key]  > .env
+```
+5. Run any of the following test scripts
 ```sh
 # Runs traditional WebdriverIO tests against v1 of the app
 npm run v1_traditional_tests
