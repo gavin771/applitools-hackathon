@@ -1,6 +1,4 @@
 class CanvasChart {
-  constructor() {}
-
   get chart() {
     return $("#canvas");
   }

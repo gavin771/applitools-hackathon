@@ -28,7 +28,8 @@ class Dashboard {
   }
 
   /**
-   * Retrieves the transactions in the recent transactions table
+   * Retrieves the transactions in the recent transactions table. We parse through the
+   * table data to store the records in an array of objects
    */
   get transactions() {
     this.recentTransactions = [];
@@ -61,6 +62,7 @@ class Dashboard {
   }
 
   /**
+   * Sorts transactions based on the ammount field
    *
    * @param {Array.Object} transactions
    * @return {Boolean} true if sorted in ascending order else false
