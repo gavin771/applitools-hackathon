@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./images/logo.jpeg" alt="Logo" width="280" height="115"/>
+    <img src="./images/logo.jpeg" alt="Logo" width="280" height="120"/>
   <h3 align="center">Applitools Visual AI Rockstar Hackathon</h3>
   <p align="center">Automated test suite for demo app using Applitools.</p>
 </p>
@@ -78,7 +78,9 @@ npm run v2_applitools_tests
 ```
 
 ## Test Results
-The batch results for the applitools test can be found [here]().
+* The batch results for the applitools tests against v1 can be found [here](https://eyes.applitools.com/app/test-results/00000251829017021217?accountId=BEGPGV6dgE_IoU0lCCYVEA~~&display=details&top=00000251828969040752%284%29).
+
+* The batch results for the applitools tests against v2 can be found [here](https://eyes.applitools.com/app/test-results/00000251829016021091?accountId=BEGPGV6dgE_IoU0lCCYVEA~~&display=details&top=00000251828969040752%284%29).
 
 ## License
 
