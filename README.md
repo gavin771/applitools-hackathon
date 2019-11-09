@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./images/logo.jpeg" alt="Logo" width="280" height="105"/>
+    <img src="./images/logo.jpeg" alt="Logo" width="280" height="115"/>
   <h3 align="center">Applitools Visual AI Rockstar Hackathon</h3>
   <p align="center">Automated test suite for demo app using Applitools.</p>
 </p>
@@ -34,7 +34,6 @@ The challenge is to write five (5) automated tests for both versions of the app:
 * [chai](https://www.chaijs.com/)
 * [Applitools](https://applitools.com/)
 
-____
 
 ## Getting Started
 
@@ -63,7 +62,7 @@ cd applitools-hackathon
 npm install
 ```
 
-3. Run an of the following test scripts
+3. Run any of the following test scripts
 ```sh
 # Runs traditional WebdriverIO tests against v1 of the app
 npm run v1_traditional_tests
@@ -78,18 +77,12 @@ npm run v1_applitools_tests
 npm run v2_applitools_tests
 ```
 
-___
-
 ## Test Results
 The batch results for the applitools test can be found [here]().
-
-___
 
 ## License
 
 Distributed under the MIT License.
-
-___
 
 ## Contact
 
