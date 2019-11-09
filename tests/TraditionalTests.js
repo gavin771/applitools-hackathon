@@ -25,8 +25,10 @@ describe(`Applitools Visual AI Rockstar Hackathon: Traditional Tests - App ${tes
         LoginPage.dialogContainer.isDisplayed(),
         "Login container does not exist"
       );
-      //MISSING TEST: Test that container is centered on page for various screen sizes
-      //MISSING TEST: Test that container has correct height and width for screen size
+      //MISSING TEST: Test that container is centered on page for various screen sizes, virtually
+      //impossible to consider all screen sizes and verify the position of elements.
+      //MISSING TEST: Test that container has correct height and width for screen size, virtually
+      //impossible to consider all screen sizes and verify the position of elements.
     });
 
     it("should have a logo", () => {
@@ -37,7 +39,8 @@ describe(`Applitools Visual AI Rockstar Hackathon: Traditional Tests - App ${tes
         ),
         `Wrong logo: [${LoginPage.logoImage.getAttribute("src")}]`
       );
-      // MISSING TEST: Test that the logo is the correct color and type
+      // MISSING TEST: Test that the logo is the correct color and type, not possible traditionally 
+      // since the logo is an image
     });
 
     it("should have a login form header", () => {
