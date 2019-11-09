@@ -1,14 +1,15 @@
 <p align="center">
-    <img src="./images/logo.jpeg" alt="Logo" width="180" height="80"/>
+    <img src="./images/logo.jpeg" alt="Logo" width="280" height="105"/>
   <h3 align="center">Applitools Visual AI Rockstar Hackathon</h3>
   <p align="center">Automated test suite for demo app using Applitools.</p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+___
 
 ## Table of Contents
 
 - [About the Project](#about-the-project)
+  - [Tools](#tools)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -20,13 +21,20 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Imagine you wrote tests for the 1st version of an app (V1) and then the next version (V2) of the app came along a week later and it has changes, including bugs. Some of these bugs are functional bugs and some of them are visual bugs.
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`gavin771`, `repo`
+The challenge is to write five (5) automated tests for both versions of the app:
 
-<!-- GETTING STARTED -->
+1. One suite using your preferred traditional functional testing approach.
+2. Another suite which covers the same tests but uses visual AI testing with Applitools.
+
+
+### Tools
+* [WebdriverIO v5](https://webdriver.io/)
+* [chai](https://www.chaijs.com/)
+* [Applitools](https://applitools.com/)
+
+____
 
 ## Getting Started
 
@@ -34,48 +42,56 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm v10.14.1+
-- Java v10.0.1+
+- [npm v10.14.1+](https://nodejs.org/en/)
+- [Java v10.0.1+](https://www.java.com/en/download/)
 
 ### Installation
 
 1. Clone the repo
 
 ```sh
-git clone https://github.com/gavin771/repo.git
+git clone https://github.com/gavin771/applitools-hackathon.git
 ```
 
+2. Navigate to the root of the project
+```sh
+cd applitools-hackathon
+```
 2. Install NPM packages
 
 ```sh
 npm install
 ```
 
-3. Test scripts
+3. Run an of the following test scripts
 ```sh
-# Runs traditional tests against v1 of the app
+# Runs traditional WebdriverIO tests against v1 of the app
 npm run v1_traditional_tests
+
+# Runs traditional WebdriverIO tests against v2 of the app
+npm run v2_traditional_tests
+
+# Runs applitools tests against v1 of the app
+npm run v1_applitools_tests
+
+# Runs applitools tests against v2 of the app
+npm run v2_applitools_tests
 ```
 
-<!-- USAGE EXAMPLES -->
+___
 
-## Usage
+## Test Results
+The batch results for the applitools test can be found [here]().
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- LICENSE -->
+___
 
 ## License
 
 Distributed under the MIT License.
 
-<!-- CONTACT -->
+___
 
 ## Contact
 
-Gavin Samuels - [@gavin_io](https://twitter.com/gavin_io)<br/>
-Project Link: [https://github.com/gavin771/repo](https://github.com/gavin771/repo)
+Gavin Samuels: [@gavin_io](https://twitter.com/gavin_io)<br/>
+Project Link: [https://github.com/gavin771/applitools-hackathon.git](https://github.com/gavin771/applitools-hackathon.git)
