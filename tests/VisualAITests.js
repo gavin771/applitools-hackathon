@@ -7,13 +7,14 @@ const CanvasChart = require("../pages/v1/CanvasChart.page");
 describe(`Applitools Visual AI Rockstar Hackathon: Visual AI Tests - App ${testConfig.testVersion}`, () => {
   describe("[1] Login Page UI Elements Test", () => {
     before(() => {
+      //Starts a new test
       browser.call(() =>
         eyes.open(browser, "ACME demo app", `[1] Login Page UI Elements Test`)
       );
       browser.url(testConfig.loginUrl);
     });
 
-    //Applitools doesn't capture the page title
+    //Applitools doesn't capture the page title, so we still verify this in a traditional way
     it("should have the right title", () => {
       const title = browser.getTitle();
       assert.equal(
@@ -25,6 +26,7 @@ describe(`Applitools Visual AI Rockstar Hackathon: Visual AI Tests - App ${testC
 
     //All tests previously created in traditional test file are captured here :)
     it("should have a correctly formatted Login Page", () => {
+      //Takes a screenshot of the entire page with the screen name Login Screen
       browser.call(() => eyes.check("Login Screen", Target.window().fully()));
       browser.call(() => eyes.close(true));
     });
